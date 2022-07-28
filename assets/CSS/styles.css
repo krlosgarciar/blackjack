@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  background-color: #2f4f30;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+.btn {
+  font-size: 1.6rem;
+}
+
+.cartas {
+  height: 24rem;
+}
+
+.carta {
+  position: relative;
+  width: 15rem;
+  left: 10rem;
+  margin-left: -7.5rem;
+}

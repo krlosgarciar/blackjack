@@ -17,9 +17,38 @@
 
 <body>
 
-  <header>Blackjack</header>
+  <header class="title font-weight-bold">Blackjack</header>
+
+  <div class="mt-2">
+    <div id="divBotones" class="col text-center">
+
+      <button id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
+      <button id="btnPedir" class="btn btn-primary">Pedir Carta</button>
+      <button id="btnDetener" class="btn btn-primary">Detener</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col">
+      <h1 class="mb-4">Jugador 1 - <span>0</span></h1>
+      <div id="jugador-cartas" class="cartas">
+        <!-- <img class="carta" src="assets/cartas/2C.png" alt="Carta"> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- IA -->
+  <div class="container mt-5">
+    <div class="col">
+      <h1 class="mb-4">IA - <span>0</span></h1>
+      <div id="ia-cartas" class="cartas">
+        <img class="carta" src="assets/cartas/AH.png" alt="Carta">
+      </div>
+    </div>
+  </div>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.4/underscore-umd-min.js"></script>
   <script src="assets/js/app-game.js"></script>
 </body>
 
